@@ -15,6 +15,8 @@ To start, you should have the following:
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_style("white")
 ```
 
 
@@ -26,7 +28,6 @@ myLibrary = pd.read_csv('/PATH/TO/FILE/visualizing-distribution-count.txt', sep=
 
 # If you have a TSV file, run:
 myLibrary = pd.read_csv('/PATH/TO/FILE/visualizing-distribution-count.txt', sep='\t')
-
 ```
 
 Notice the difference between the two import commands. The sep value is a ',' or a comma for a CSV file and a '/t' or a tab for a TSV file.
